@@ -1,0 +1,34 @@
+.main-div {
+  height: 200%;
+  overflow: hidden;
+}
+.header-div {
+  height: 5%;
+  background-color: black;
+}
+.signin-signup-forgetpassword-div {
+  height: 40%;
+  width: 300%;
+  display: flex;
+  margin-left: -100%;
+  transition: 0.3s all ease-in-out;
+}
+.signin-div,
+.signup-div,
+.forgetpassword-div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.features-aboutus-div {
+  height: 55%;
+  background-color: blue;
+}
+
+#signup-link:hover,
+#forgot-password-link:hover {
+  cursor: pointer;
+}
