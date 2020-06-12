@@ -31,7 +31,6 @@ export default (props) => {
         </div>
         <div className="signup-div">
           <SignUp />
-
           <Row id="signup-link" style={{ marginTop: "3%", marginBottom: "3%" }}>
             <Col onClick={goToSignIn}>Already hava an account ? </Col>
           </Row>
