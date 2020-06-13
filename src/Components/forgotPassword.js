@@ -10,6 +10,7 @@ export default (props) => (
  <div Id="sign_control"  >
    <div className="row">
      <div   className="col-sm-6 ">
+        <img className="img-fluid" style={{width:'200px',height:'230px',marginTop:'10%'}} src={logo} alt="logo"/>
      </div>
      <div  className="col-sm-6">
      <Form >
