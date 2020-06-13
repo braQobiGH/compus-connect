@@ -1,8 +1,6 @@
 import React from "react";
 import "../Css/signin.css";
 import { Container, Form, Button } from "react-bootstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngry } from "@fortawesome/free-solid-svg-icons";
 
 export default (props) => (
   <Container className="container">
