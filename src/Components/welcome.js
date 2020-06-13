@@ -12,7 +12,16 @@ export default (props) => {
   const goToForgetPassword = (e) => (divRef.current.style.marginLeft = "0%");
   return (
     <div className="main-div">
-      <div className="header-div">1</div>
+      <div style={{width:"100%",height:"10px",backgroundColor:"darkorange"}}></div>
+
+  <div className="row">
+      <div className="header-div col-12">
+      <h4 style={{paddingLeft:"20px",paddingTop:"20px"}}>CAMPUS<span style={{color:"darkorange",fontSize:"32px",fontWeight:"bolder"}}>C</span>ONNECT</h4>
+      
+      </div>
+      </div>
+
+
       <div className="signin-signup-forgetpassword-div" ref={divRef}>
         <div className="forgetpassword-div">
           <ForgotPassword />
