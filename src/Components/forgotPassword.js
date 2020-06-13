@@ -18,12 +18,16 @@ export default (props) => (
         <Form.Label>Email address</Form.Label>
         <Form.Control type="email" placeholder="Enter email" required />
         <Form.Text className="text-muted">
-          We'll never share your email with anyone else.
+         You will get an Otp on your registered email
         </Form.Text>
       </Form.Group>
       <Form.Group controlId="formBasicPassword">
         <Form.Label>Password</Form.Label>
         <Form.Control type="password" placeholder="Password" required />
+      </Form.Group>
+      <Form.Group controlId="formBasicPassword">
+        <Form.Label>Otp</Form.Label>
+        <Form.Control type="password" placeholder="Otp" required />
       </Form.Group>
       <Button variant="danger" type="submit" className="col-12">
         Send
