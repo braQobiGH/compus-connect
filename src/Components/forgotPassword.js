@@ -1,6 +1,6 @@
 import React from "react";
 import "../Css/signin.css";
-import logo from "../images/mylogo.jpg"
+import logo from "../images/locked.png"
 
 import { Container, Form, Button } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -28,7 +28,7 @@ export default (props) => (
         <Form.Control type="password" placeholder="Password" required />
       </Form.Group>
       <Button variant="danger" type="submit" className="col-12">
-        Sign In
+        Send
       </Button>
     </Form>
      </div>

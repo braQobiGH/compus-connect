@@ -5,3 +5,13 @@
   justify-self: center;
   flex-direction: column;
 }
+.image{
+  width:700px;
+  height:300px
+}
+#sign_control{
+  position:relative;
+  top:10px;
+  margin-bottom:10px;
+  padding:5px;
+}

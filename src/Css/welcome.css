@@ -29,6 +29,12 @@
 }
 
 #signup-link:hover,
+#already-link:hover,
 #forgot-password-link:hover {
   cursor: pointer;
+}
+#signup-link,
+#forgot-password-link {
+  color:dodgerblue;
+  margin-left:35%;
 }
