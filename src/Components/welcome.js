@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import SignIn from "../Components/signin";
 import SignUp from "../Components/signup";
+import ForgotPassword from "../Components/forgotPassword"
 import "../Css/welcome.css";
 import { Row, Col } from "react-bootstrap";
 
@@ -15,7 +16,7 @@ export default (props) => {
       <div className="signin-signup-forgetpassword-div" ref={divRef}>
         <div className="forgetpassword-div">
           <ForgotPassword />
-          <Row id="signup-link" style={{ marginTop: "3%", marginBottom: "3%" }}>
+          <Row id="forgot-link" style={{ marginTop: "1%", marginBottom: "3%" }}>
             <Col onClick={goToSignIn}>Back To Sign In</Col>
           </Row>
         </div>

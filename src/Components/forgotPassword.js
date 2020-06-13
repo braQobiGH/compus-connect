@@ -10,11 +10,8 @@ export default (props) => (
  <div Id="sign_control"  >
    <div className="row">
      <div   className="col-sm-6 ">
-       <h6 className="mb-3">Join the largest Education Social Network<span><br/>Connect with Friends from school, College and Universities</span></h6>
-        <img className="img-fluid image" src={logo} alt="logo"/>
      </div>
      <div  className="col-sm-6">
-       <h5>Create New Account</h5>
      <Form >
       <Form.Group controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
