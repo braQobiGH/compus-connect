@@ -4,13 +4,15 @@ import logo from "../images/locked.png"
 
 import { Container, Form, Button } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngry } from "@fortawesome/free-solid-svg-icons";
+import { faAngry, faFrown } from "@fortawesome/free-solid-svg-icons";
+import { faFrownO } from "@fortawesome/free-solid-svg-icons";
+
 
 export default (props) => (
  <div Id="sign_control"  >
    <div className="row">
-     <div   className="col-sm-6 ">
-        <img className="img-fluid" style={{width:'200px',height:'230px',marginTop:'10%'}} src={logo} alt="logo"/>
+     <div   className="col-sm-6 " >
+     <FontAwesomeIcon icon={faFrown}  style={{color:"darkorange",fontSize:"200px",marginTop:"30%"}}/>
      </div>
      <div  className="col-sm-6">
      <Form >
@@ -29,7 +31,7 @@ export default (props) => (
         <Form.Label>Otp</Form.Label>
         <Form.Control type="password" placeholder="Otp" required />
       </Form.Group>
-      <Button variant="danger" type="submit" className="col-12">
+      <Button  type="submit" className="col-12 btn" style={{backgroundColor:"darkorange"}}>
         Send
       </Button>
     </Form>
