@@ -4,8 +4,8 @@
 }
 .header-div {
   height: 5%;
-  background-color:white;
-  border-bottom : 1px solid #ccc;
+  background-color:whitesmoke;
+  border-bottom : 2px solid #808080;
 }
 .signin-signup-forgetpassword-div {
   height: 40%;
@@ -24,9 +24,11 @@
   flex-direction: column;
 }
 
+#already-link{margin-left:45%;
+  color:dodgerblue;}
 .features-aboutus-div {
   height: 55%;
-  background-color: blue;
+  background-color:#808080;
 }
 
 #forgot-link:hover,
@@ -38,7 +40,7 @@
 #signup-link,
 #forgot-password-link {
   color:dodgerblue;
-  margin-left:35%;
+  margin-left:45%;
 }
 #forgot-link{
   margin-left:17%;
