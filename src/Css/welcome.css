@@ -1,14 +1,18 @@
 .main-div {
-  height: 200%;
-  overflow: hidden;
+  height: 100%;
+  overflow-x: hidden;
+}
+.container-div {
+  width: 90%;
+  display: flex;
+  align-items: center;
 }
 .header-div {
-  height: 5%;
+  height: 10%;
   background-color:whitesmoke;
   border-bottom : 2px solid #808080;
 }
 .signin-signup-forgetpassword-div {
-  height: 40%;
   width: 300%;
   display: flex;
   margin-left: -100%;
@@ -24,25 +28,22 @@
   flex-direction: column;
 }
 
-#already-link{margin-left:45%;
-  color:dodgerblue;}
 .features-aboutus-div {
-  height: 55%;
-  background-color:#808080;
+  height: 20%;
+  margin-top: 1%;
+  border-top: 2px gray solid;
+  background-color:black;
 }
 
-#forgot-link:hover,
+#forget-password-link:hover,
 #signup-link:hover,
-#already-link:hover,
-#forgot-password-link:hover {
+#already-link:hover {
   cursor: pointer;
 }
-#signup-link,
-#forgot-password-link {
-  color:dodgerblue;
-  margin-left:45%;
+
+h4{
+  font-weight: bold;
+  padding-bottom: 20px;
 }
-#forgot-link{
-  margin-left:17%;
-  color:dodgerblue;
-}
+
+

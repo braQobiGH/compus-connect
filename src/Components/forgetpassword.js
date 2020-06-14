@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import "../Css/signin.css";
-import { Container, Form, Button } from "react-bootstrap";
-
+import "../Css/forgetpassword.css";
+import {  Form, Button, Row, Col } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSadTear } from "@fortawesome/free-solid-svg-icons";
 export default (props) => {
   const email = useInputs();
   const otp = useInputs();
@@ -11,8 +12,10 @@ export default (props) => {
     console.log(email.value, otp.value, password.value);
   };
   return (
-    <Container className="container">
-      <Form className="col-lg-5 col-md-7" onSubmit={onSubmit}>
+    <div className="container-div">
+      <div className='emoji-div'><p>Forgot Password ? </p><FontAwesomeIcon icon={faSadTear} size='4x' color='darkorange'/></div>
+      <div className='forgetpassword-form-div'>
+      <Form style={{width:'100%'}} onSubmit={onSubmit}>
         <Form.Group controlId="email">
           <Form.Label>Email address</Form.Label>
           <Form.Control
@@ -54,7 +57,11 @@ export default (props) => {
           Sign In
         </Button>
       </Form>
-    </Container>
+      <Row id="forget-password-link">
+          <Col onClick={props.goToSignIn}>Back To Sign In</Col>
+        </Row>
+        </div>
+    </div>
   );
 };
 

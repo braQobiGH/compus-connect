@@ -1,17 +1,17 @@
-.container {
+.carousel-div{
+  background-color: red;
+  width: 48%;
+  margin-right: 2%;
+  height: 100%;
+}
+.signin-form-div{
+  width:50%;
   display: flex;
-  align-items: center;
-  align-self: center;
-  justify-self: center;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.image{
-  width:700px;
-  height:300px
-}
-#sign_control{
-  position:relative;
-  top:10px;
-  margin-bottom:10px;
-  padding:5px;
+@media only screen and (max-width:860px){
+  .carousel-div{display: none;}
+  .signin-form-div{width: 96%;margin-right: 2%;}
 }
