@@ -10,8 +10,6 @@ import walk from "../images/walk.jpg"
 import Carousel from 'react-bootstrap/Carousel'
 
 import { Container, Form, Button } from "react-bootstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngry } from "@fortawesome/free-solid-svg-icons";
 
 export default (props) => (
  <div Id="sign_control"  >
