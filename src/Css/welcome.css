@@ -1,13 +1,18 @@
 .main-div {
-  height: 200%;
-  overflow: hidden;
+  height: 100%;
+  overflow-x: hidden;
+}
+.container-div {
+  width: 90%;
+  display: flex;
+  align-items: center;
 }
 .header-div {
-  height: 5%;
-  background-color: black;
+  height: 10%;
+  background-color:whitesmoke;
+  border-bottom : 2px solid #808080;
 }
 .signin-signup-forgetpassword-div {
-  height: 40%;
   width: 300%;
   display: flex;
   margin-left: -100%;
@@ -24,11 +29,21 @@
 }
 
 .features-aboutus-div {
-  height: 55%;
-  background-color: blue;
+  height: 20%;
+  margin-top: 1%;
+  border-top: 2px gray solid;
+  background-color:black;
 }
 
+#forget-password-link:hover,
 #signup-link:hover,
-#forgot-password-link:hover {
+#already-link:hover {
   cursor: pointer;
 }
+
+h4{
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+
