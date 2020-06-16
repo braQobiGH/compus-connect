@@ -12,6 +12,7 @@ import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faShare } from "@fortawesome/free-solid-svg-icons";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 
+
 export default(props) =>{
     return(
     <div >
@@ -32,7 +33,7 @@ export default(props) =>{
                 <FontAwesomeIcon icon={faTwitter} size='2x' color='skyblue' style={{margin:'5px'}}/>
             </a> 
             <a href="#">
-                <FontAwesomeIcon icon={faInstagram} size='2x' color='violet' fill='violet' style={{margin:'5px'}}/>
+                <FontAwesomeIcon icon={faInstagram} size='2x' color='violet'  style={{margin:'5px'}}/>
             </a>
             <a>
                 <FontAwesomeIcon icon={faYoutube} size='2x' color='red' style={{margin:'5px'}}/>
@@ -51,47 +52,42 @@ export default(props) =>{
             </Col>
             
         </Row>
-        <Row style={{marginTop:'2%'}}>
-            <Col className="col-sm-6" id="get-in-touch">
-                <h4 style={{marginBottom:'3%',marginLeft:'5px',padding:'20px'}} >Get in Touch</h4>
+        <div className="row" style={{marginTop:'2%'}}>
+            <div  className="col-sm-12 col-md-6" id="get-in-touch">
+                <h4 >Get in Touch</h4>
                 <center>
                 <Form style={{width:'100%',margin:'10px',padding:'20px'}}>
                     <Form.Group controlId="formBasicMessage">
-                        <textarea placeHolder='Enter message' style={{width:'100%',height:'150px'}}/>
+                        <textarea placeHolder='Enter message' />
                     </Form.Group>
-                    <Form.Group controlId="formBasicPassword">
-                        <Form.Control
-                             style={{width:'100%',marginBottom:'5%',height:'50px'}} 
-                             type="text" placeholder="Enter your name" required />
-                        <Form.Control
-                             style={{width:'100%',height:'50px',marginBottom:'5%'}}
-                             type="text" placeholder="Email" required />
+                    <Form.Group >
                         <Form.Control 
-                            style={{width:'100%',height:'50px',marginBottom:'5%'}} 
-                            type="text" placeholder="Enter Subject" required />
+                             type="text" name ="name" id = "formBasicMessage" placeholder="Enter your name" required />
+                        <Form.Control
+                             type="text" id = "formBasicMessage" placeholder="Email" required />
+                        <Form.Control 
+                            type="text" id = "formBasicMessage" placeholder="Enter Subject" required />
                     </Form.Group>
                     <Button style={{width:'100%',float:'left',marginRight:'25px',marginBottom:'5%',height:'100px'}}   type="submit" variant="outline-dark" className="col-12 btn" >
                         SEND
                     </Button>
                     </Form>
                 </center>
-            </Col>
-            <Col className="col-sm-6" id="locate-us">
+            </div>
+            <div className="col-sm-12 col-md-6" id="locate-us">
                 <center>
-                   <h4 style={{marginBottom:'6%',marginLeft:'5px',padding:'20px'}} >Locate Us</h4>
-                   <div style={{width:'100%',marginBottom:'5%'}}>
+                   <h4  >Locate Us</h4>
+                   <div style={{width:'100%',marginBottom:'5%',marginTop:'5%'}}>
                        <GoogleMap/>
                    </div>
                 </center>
-            </Col>
-        </Row>
+            </div>
+        </div>
         <Row>
             <Col className="col-sm-12">
                 <center>
-                    <p style={{color:'white'}}>
-                        <copyright> 
-                            2020 by Real Team <FontAwesomeIcon icon ={faHeart } size='2x' color='orangered'/>
-                        </copyright>
+                    <p style={{color:'white',marginTop:'2%',marginBottom:'5%'}}>
+                        &copy; 2020 by Real Team <FontAwesomeIcon icon ={faHeart } size='2x' color='orangered'/>
                     </p>
                 </center>
             </Col>
