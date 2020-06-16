@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import SignIn from "../Components/signin";
 import SignUp from "../Components/signup";
 import ForgetPassword from "../Components/forgetpassword";
+import footer from "../Components/footer"
 // import { Row, Col } from "react-bootstrap";
 import '../Css/welcome.css'
 import { Alert } from "react-bootstrap";
@@ -33,7 +34,9 @@ export default props=>{
           <SignUp goToSignIn={goToSignIn}/>
         </div>
       </div>
-      <div className="features-aboutus-div">4</div>
+      <div className="features-aboutus-div">4
+        <Footer/>
+      </div>
     </div>
   )
 }
