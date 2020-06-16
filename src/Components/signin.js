@@ -1,6 +1,5 @@
 import React from "react";
 import "../Css/signin.css";
- import logo from "../images/mylogo.jpg";
  import happy from "../images/happy.jpg";
 import join from "../images/join.jpg";
 import meeting from "../images/meeting.jpg";
