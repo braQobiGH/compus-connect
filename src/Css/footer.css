@@ -1,0 +1,33 @@
+#social-media-icons a{
+    margin-right:2%;
+    cursor:pointer;
+}
+.container-div {
+    width: 90%;
+    display: flex;
+    align-items: center;
+
+  }
+  #get-in-touch{
+      color:orangered;
+  }
+  #formBasicMessage{
+      height:50px;
+      margin-bottom:5%;
+  }
+  textarea{
+    width:100%;
+    height:150px
+  }
+  #locate-us{
+      color:orangered;
+  }
+  .orangered{
+      background:orangered;
+      color:white;
+  }
+  h4{
+    margin-bottom:'3%';
+    margin-left:'5px';
+    padding:20px 
+  }
