@@ -29,10 +29,10 @@
 }
 
 .features-aboutus-div {
-  height: 20%;
+  height: auto;
   margin-top: 1%;
   border-top: 2px gray solid;
-  background-color:black;
+  background-color:#121212;
 }
 
 #forget-password-link:hover,

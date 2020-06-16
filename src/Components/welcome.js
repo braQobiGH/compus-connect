@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import SignIn from "../Components/signin";
 import SignUp from "../Components/signup";
 import ForgetPassword from "../Components/forgetpassword";
-import footer from "../Components/footer"
+import Footer from "../Components/footer"
 // import { Row, Col } from "react-bootstrap";
 import '../Css/welcome.css'
 import { Alert } from "react-bootstrap";
