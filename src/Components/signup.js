@@ -1,7 +1,6 @@
 import React from "react";
 import "../Css/signup.css";
 import { Form, Button, Col, Row } from "react-bootstrap";
- import logo from "../images/mylogo.jpg"
  import happy from "../images/happy.jpg"
  import join from "../images/join.jpg"
  import meeting from "../images/meeting.jpg"

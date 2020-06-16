@@ -9,7 +9,7 @@ export default (props)=>{
             id="myId"
             width='90%'
             className="myClassname"
-            height="500px"
+            height="370px"
             styles={{height: "25px"}}/>
         </div>
     )

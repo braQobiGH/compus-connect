@@ -34,7 +34,7 @@ export default props=>{
           <SignUp goToSignIn={goToSignIn}/>
         </div>
       </div>
-      <div className="features-aboutus-div">4
+      <div className="features-aboutus-div">
         <Footer/>
       </div>
     </div>
